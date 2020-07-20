@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Хедер -->
+    <header class="header">
+      <div class="header-wrapper conteiner">
+        <div class="logo">
+          <a class="link" href="./index.html" lang="en">
+            <span class="first-part-logo">Web</span>
+            <span class="second-part-logo">Studio </span>
+          </a>
+        </div>
+        <nav>
+          <ul class="navigation-list list">
+            <li class="navigation-list-item list">
+              <a
+                class="navigation-list-link navigation-studio link"
+                href="./index.html"
+                >Студия</a
+              >
+            </li>
+            <li class="navigation-list-item list">
+              <a class="navigation-list-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item list">
+              <a class="navigation-list-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact-with-us-list list">
+          <li class="contact-with-us-item list">
+            <a
+              class="contact-with-us-mail link"
+              href="mailto:info@devstudio.com"
+            >
+              <svg class="icon-envelope">
+                <use href="./images/sprite-svg.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact-with-us-item list">
+            <a class="contact-with-us-phone link" href="tel:+380961111111">
+              <svg class="icon-smartphone">
+                <use href="./images/sprite-svg.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="portfolio-filtr">
+        <div class="conteiner">
+          <h1 hidden>Портфолио работ Студии</h1>
+          <h2 hidden>Филитр проэктов Студии</h2>
+          <div class="portfolio-filtr-btn">
+            <ul class="portfolio-filtr-list list">
+              <li>
+                <button
+                  class="portfolio-filtr-items button-all-projects"
+                  type="button"
+                >
+                  Все
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-filtr-items" type="button">
+                  Веб-сайты
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-filtr-items" type="button">
+                  Приложения
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-filtr-items" type="button">
+                  Дизайн
+                </button>
+              </li>
+              <li>
+                <button class="portfolio-filtr-items" type="button">
+                  Маркетинг
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Примеры работ -->
+          <div>
+            <ul class="work-examples list">
+              <li class="work-examples-items">
+                <a class="work-examples-link link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/1-Технокряк.jpg"
+                    alt="Изображение веб-сайта Технокряк на мониторе ноутбука"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">Технокряк</h3>
+                    <p class="work-example-type">Веб-сайт</p>
+                    <!-- <p class="work-example-descriotion" width="370">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                      </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/2-Постер-New-Orlean-vs-Golden-Star.jpg"
+                    alt="Изображение постера"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Постер <span lang="en"> New Orlean vs Golden Star</span>
+                    </h3>
+                    <p class="work-example-type">Дизайн</p>
+                    <!-- <p class="work-example-descriotion" width="370">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/3-Ресторан-Seafood.jpg"
+                    alt="Изображение логотипа ресторана Сифуд"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Ресторан <span lang="en">Seafood</span>
+                    </h3>
+                    <p class="work-example-type">Приложение</p>
+                    <!-- <p class="work-example-descriotion">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/4-Проект-Prime.jpg"
+                    alt="Изображение наушников"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Проект<span lang="en">Prime</span>
+                    </h3>
+                    <p class="work-example-type">Маркетинг</p>
+                    <!-- <p class="work-example-descriotion">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для цифрового
+                     шпионажа и атак на защищённые сервера конкурентов.
+                     </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/5-Проект-Boxes.jpg"
+                    alt="Изображение логотипа приложения Boxe"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Проект<span lang="en">Boxe</span>
+                    </h3>
+                    <p class="work-example-type">Приложение</p>
+                    <!-- <p class="work-example-descriotion">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/6-Inspiration-has-no-Borders.jpg"
+                    alt="Изображение веб-сайта Inspiration has no Borders на мониторе ноутбука"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title" lang="en">
+                      Inspiration has no Borders
+                    </h3>
+                    <p class="work-example-type">Веб-сайт</p>
+                    <!-- <p class="work-example-descriotion">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для цифрового
+                    шпионажа и атак на защищённые сервера конкурентов.
+                  </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/7-Издание-Limited-Edition.jpg"
+                    alt="Изображение разворота журнала Limited-Edition "
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Издание <span lang="en">Limited Edition</span>
+                    </h3>
+                    <p class="work-example-type">Дизайн</p>
+                    <!-- <p class="work-example-descriotion">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/8-Проект-LAB.jpg"
+                    alt="Изображение этикетки с логотипом магазина LAB"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title">
+                      Проект <span lang="en">LAB</span>
+                    </h3>
+                    <p class="work-example-type">Маркетинг</p>
+                    <!-- <p class="work-example-descriotion">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+              <li class="work-examples-items">
+                <a class="link" href="">
+                  <img
+                    class="work-examples-img"
+                    src="./images/Портфолио/9-Growing-Business.jpg"
+                    alt="Изображение веб-сайта Growing Business на мониторе ноутбука"
+                    width="370"
+                  />
+                  <div class="wrapper-for-work-examples-carts">
+                    <h3 class="work-example-title" lang="en">
+                      Growing Business
+                    </h3>
+                    <p class="work-example-type">Приложение</p>
+                    <!-- <p class="work-example-descriotion">
+                      Технокряк это современная площадка распространения
+                      коронавируса. Компании используют эту платформу для цифрового
+                      шпионажа и атак на защищённые сервера конкурентов.
+                    </p> -->
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Секция: Футер-->
+    <footer class="footer">
+      <div class="footer-wrapper conteiner">
+        <div class="footer-logo-address">
+          <a class="footer-logo-link logo link" href="./index.html" lang="en">
+            <span class="first-part-logo">Web</span>
+            <span class="second-part-logo-footer"> Studio </span>
+          </a>
+          <address>
+            <ul class="footer-address-items list">
+              <li class="footer-address">г. Киев, пр-т Леси Украинки, 26</li>
+              <li>
+                <a
+                  class="footer-studio-mail link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-studio-phone link" href="tel:+380961111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="join-social-links">
+          <p class="join"><b>присоединяйтесь</b></p>
+          <ul class="join-list list">
+            <li>
+              <a
+                class="join-social-links-items"
+                href=""
+                aria-label="Ссылка на Инстаграм Web Studio"
+              >
+                <svg class="icon-instagram-white">
+                  <use href="./images/sprite-svg.svg#icon-instagram-grey"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="join-social-links-items"
+                href=""
+                aria-label="Ссылка на Твитер Web Studio"
+              >
+                <svg class="icon-twitter-white">
+                  <use href="./images/sprite-svg.svg#icon-twitter-white"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="join-social-links-items"
+                href=""
+                aria-label="Ссылка на Фейсбук Web Studio"
+              >
+                <svg class="icon-facebook-white">
+                  <use href="./images/sprite-svg.svg#icon-facebook-white"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                class="join-social-links-items"
+                href=""
+                aria-label="Ссылка на Линктин Web Studio"
+              >
+                <svg class="icon-linkedin-white">
+                  <use
+                    href="./images/sprite-svg.svg#icon-linkedin-white"
+                  ></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="subscription"><b>подпишитесь на рассылку</b></div>
+        <!-- <input type="text" size="50" />
+            <input type="text" E-mail value="Подписаться" /> -->
+      </div>
+    </footer>
+  </body>
+</html>
