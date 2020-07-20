@@ -166,8 +166,6 @@ margin-left: 50px;
   /* outline: 2px solid springgreen; */
 }
 .hero {
-  width: 1600px;
-  height: 600px;
   margin: auto;
   background-image: linear-gradient(
       to right,
@@ -180,7 +178,7 @@ margin-left: 50px;
   background-position: center;
 
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-titlel {
   margin-top: 0px;
@@ -217,7 +215,7 @@ margin-left: 50px;
   border: 0px;
 }
 .order-btn:hover {
-  color: var(--primary-text-color);
+  cursor: pointer;
 }
 /* Секция: Преимущества Веб-студии */
 .advantages-websdudio {
@@ -541,6 +539,8 @@ margin-left: 50px;
 .portfolio-filtr-items:focus {
   background: var(--accent-color);
   color: var(--title-text-color1);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 3px 1px rgba(0, 0, 0, 0.1);
 }
 
 /* Карточки работ */
